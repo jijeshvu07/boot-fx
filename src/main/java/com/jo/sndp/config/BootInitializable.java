@@ -7,11 +7,12 @@ import javafx.scene.Node;
 import javafx.stage.Stage;
 
 public interface BootInitializable extends Initializable, ApplicationContextAware {
-	
+
 	public void initConstruct();
-	
+
 	public void stage(Stage primaryStage);
-	
+
 	public Node initView();
 
+	public void initValidator();
 }

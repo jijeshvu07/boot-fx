@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<ScrollPane fitToHeight="true" fitToWidth="true" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1">
+   <content>
+      <GridPane alignment="CENTER" prefHeight="620.0" prefWidth="700.0">
+        <columnConstraints>
+            <ColumnConstraints halignment="CENTER" hgrow="ALWAYS" maxWidth="1400.0" minWidth="700.0" prefWidth="977.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints maxHeight="50.0" minHeight="50.0" prefHeight="50.0" valignment="CENTER" vgrow="NEVER" />
+            <RowConstraints minHeight="500.0" valignment="CENTER" vgrow="ALWAYS" />
+        </rowConstraints>
+         <children>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Label text="Add Family Details">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <GridPane alignment="CENTER" hgap="20.0" prefHeight="447.0" prefWidth="977.0" vgap="15.0" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="1" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS">
+              <columnConstraints>
+                <ColumnConstraints />
+                <ColumnConstraints />
+                  <ColumnConstraints halignment="LEFT" hgrow="SOMETIMES" maxWidth="250.0" minWidth="250.0" prefWidth="250.0" />
+                  <ColumnConstraints halignment="LEFT" hgrow="SOMETIMES" maxWidth="300.0" minWidth="300.0" prefWidth="300.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints maxHeight="30.0" minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="30.0" minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="30.0" minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="30.0" minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="30.0" minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="30.0" minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="30.0" minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="30.0" minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="30.0" minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="30.0" minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="30.0" minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="30.0" minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="30.0" minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="30.0" minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="30.0" minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="30.0" minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="30.0" minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="30.0" minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="30.0" minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="30.0" minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <Label text="Member Code" GridPane.columnIndex="2">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <Label text="Name" GridPane.columnIndex="2" GridPane.rowIndex="1">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <Label text="Relationship" GridPane.columnIndex="2" GridPane.rowIndex="2">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <Label text="Blood group" GridPane.columnIndex="2" GridPane.rowIndex="3">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <Label text="Date of birth" GridPane.columnIndex="2" GridPane.rowIndex="4">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <Label text="Qualification" GridPane.columnIndex="2" GridPane.rowIndex="5">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="txtMemberName" prefHeight="45.0" prefWidth="300.0" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+                  <TextField fx:id="txtMemberCode" prefHeight="33.0" prefWidth="300.0" GridPane.columnIndex="3" />
+                  <Label text="Physical status" GridPane.columnIndex="2" GridPane.rowIndex="6">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <Label text="Gender" GridPane.columnIndex="2" GridPane.rowIndex="9">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <Label text="Image" GridPane.columnIndex="2" GridPane.rowIndex="10">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0" GridPane.columnIndex="3" GridPane.rowIndex="19">
+                     <children>
+                        <Button fx:id="btnAddFamilyMember" mnemonicParsing="false" onAction="#AddFamilyClick" text="Add">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </HBox>
+                  <ComboBox fx:id="cmboRelatioShip" prefHeight="48.0" prefWidth="300.0" promptText="Select Relationship" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+                  <ComboBox fx:id="cmboBloodGroup" prefHeight="42.0" prefWidth="300.0" promptText="Select Bloodgroup" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+                  <ComboBox fx:id="cmboQualification" prefHeight="48.0" prefWidth="300.0" promptText="Select Qualification" GridPane.columnIndex="3" GridPane.rowIndex="5" />
+                  <ComboBox fx:id="cmboPhyscialStatus" prefHeight="43.0" prefWidth="300.0" promptText="Select Physical status" GridPane.columnIndex="3" GridPane.rowIndex="6" />
+                  <ComboBox fx:id="cmboGender" prefHeight="44.0" prefWidth="300.0" promptText="Select Gender" GridPane.columnIndex="3" GridPane.rowIndex="9" />
+                  <Label text="Aadhar No" GridPane.columnIndex="2" GridPane.rowIndex="11" />
+                  <Label text="Election ID" GridPane.columnIndex="2" GridPane.rowIndex="12" />
+                  <Label text="Pan No" GridPane.columnIndex="2" GridPane.rowIndex="13" />
+                  <Label text="Driving licence" GridPane.columnIndex="2" GridPane.rowIndex="14" />
+                  <Label text="Mobile 1" GridPane.columnIndex="2" GridPane.rowIndex="15" />
+                  <Label text="Mobile 2" GridPane.columnIndex="2" GridPane.rowIndex="16" />
+                  <TextField fx:id="txtAdhaarNo" prefHeight="53.0" prefWidth="300.0" GridPane.columnIndex="3" GridPane.rowIndex="11" />
+                  <TextField fx:id="txtElectionNo" prefHeight="58.0" prefWidth="300.0" GridPane.columnIndex="3" GridPane.rowIndex="12" />
+                  <TextField fx:id="txtPanNo" prefHeight="56.0" prefWidth="300.0" GridPane.columnIndex="3" GridPane.rowIndex="13" />
+                  <TextField fx:id="txtDrivingLicence" prefHeight="53.0" prefWidth="300.0" GridPane.columnIndex="3" GridPane.rowIndex="14" />
+                  <TextField fx:id="txtMobile1" prefHeight="45.0" prefWidth="300.0" GridPane.columnIndex="3" GridPane.rowIndex="15" />
+                  <TextField fx:id="txtMobile2" prefHeight="42.0" prefWidth="300.0" GridPane.columnIndex="3" GridPane.rowIndex="16" />
+                  <DatePicker fx:id="txtDob" prefHeight="45.0" prefWidth="300.0" GridPane.columnIndex="3" GridPane.rowIndex="4" />
+                  <Button mnemonicParsing="false" onAction="#selectImg" prefHeight="25.0" prefWidth="98.0" text="Open File" GridPane.columnIndex="3" GridPane.rowIndex="10" />
+                  <Label fx:id="lblImgName" prefHeight="17.0" prefWidth="181.0" GridPane.columnIndex="3" GridPane.rowIndex="10">
+                     <GridPane.margin>
+                        <Insets left="110.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label fx:id="errInFamilyMember" prefHeight="17.0" prefWidth="300.0" text="Please" textFill="#f80606" GridPane.columnIndex="3" GridPane.rowIndex="18" />
+                  <Label prefHeight="17.0" prefWidth="47.0" text="Email" GridPane.columnIndex="2" GridPane.rowIndex="17" />
+                  <TextField fx:id="txtEmail" GridPane.columnIndex="3" GridPane.rowIndex="17" />
+                  <Label text="Job" GridPane.columnIndex="2" GridPane.rowIndex="8" />
+                  <ComboBox fx:id="cmboJob" prefHeight="25.0" prefWidth="319.0" promptText="Select Job" GridPane.columnIndex="3" GridPane.rowIndex="8" />
+                  <ComboBox fx:id="cmboMaritalstatus" prefHeight="25.0" prefWidth="312.0" promptText="Select Marital status" GridPane.columnIndex="3" GridPane.rowIndex="7" />
+                  <Label text="Marital status" GridPane.columnIndex="2" GridPane.rowIndex="7" />
+               </children>
+               <padding>
+                  <Insets top="20.0" />
+               </padding>
+            </GridPane>
+         </children>
+      </GridPane>
+   </content>
+</ScrollPane>
